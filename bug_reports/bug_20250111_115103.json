@@ -1,0 +1,17 @@
+{
+  "title": "PDF viewer",
+  "details": "When I clicked the detail view for a pdf file, the preview window says: \n\"Not Found\nThe requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\"",
+  "timestamp": "2025-01-11T11:51:03.684444",
+  "logs": [
+    "    \u00e2\u201d\u201d <sqlite3.Cursor object at 0x0000023E0D586340>\n",
+    "\n",
+    "sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: evidence.id\n",
+    "[SQL: INSERT INTO evidence (file_name, file_type, file_path, import_date, tags, notes, file_size) VALUES (?, ?, ?, ?, ?, ?, ?)]\n",
+    "[parameters: ('29.jpeg', 'image/jpeg', 'uploads/29.jpeg', '2025-01-11 16:36:56.283310', 'test', 'tester', 470703)]\n",
+    "(Background on this error at: https://sqlalche.me/e/20/gkpj)\n",
+    "2025-01-11 11:37:28 | ERROR    | __main__:submit_bug:134 - Bug Report - Import issue: I attempted to import an evidence file. When I clicked the final import button, I got an error message\n",
+    "2025-01-11 11:51:03 | ERROR    | __main__:submit_bug:142 - Bug Report - PDF viewer: When I clicked the detail view for a pdf file, the preview window says: \n",
+    "\"Not Found\n",
+    "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\"\n"
+  ]
+}

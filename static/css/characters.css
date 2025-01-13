@@ -1,0 +1,94 @@
+/* Character Grid Styles */
+.character-card {
+    transition: transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.character-card .card-img-container {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.character-card .card-img-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.character-card .card-body {
+    padding: 1.25rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-card .card-title {
+    margin-bottom: 0.75rem;
+}
+
+.character-card .card-text {
+    margin-bottom: 1rem;
+}
+
+.character-card .btn-group {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+/* Character Detail Modal Styles */
+#characterDetailImage {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#characterDetailEvents {
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+#characterDetailEvents .btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+/* Character Form Styles */
+#characterForm .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+#characterImage {
+    cursor: pointer;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .character-card .card-img-container {
+        padding-bottom: 100%;
+    }
+    
+    #characterDetailImage {
+        max-height: 200px;
+        margin-bottom: 1rem;
+    }
+} 

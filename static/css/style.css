@@ -1,0 +1,59 @@
+/* Custom styles for Legal Evidence Manager */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    border: none;
+}
+
+.log-container {
+    font-family: monospace;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.log-container pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.modal-content {
+    border-radius: 8px;
+    border: none;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    transition: transform 0.2s;
+}
+
+/* Evidence table styles */
+.evidence-table th {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.evidence-child {
+    padding-left: 2rem;
+} 

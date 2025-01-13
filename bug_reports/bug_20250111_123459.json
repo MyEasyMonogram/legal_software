@@ -1,0 +1,17 @@
+{
+  "title": "PDF Split",
+  "details": "When I click Split PDF There is an error message. Check logs for more details",
+  "timestamp": "2025-01-11T12:34:59.508658",
+  "logs": [
+    "2025-01-11 12:14:14 | ERROR    | app:submit_bug:156 - Bug Report - Split PDF: When I enter the pdf detail view and click the \"Split PDF\" button, nothing happens. It should prompt me to define a page range for splitting\n",
+    "2025-01-11 12:15:06 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:15:13 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:15:40 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:15:55 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:16:05 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:19:47 | ERROR    | app:get_evidence_page_count:210 - File not found: C:\\Users\\Brad\\Desktop\\legal_dev\\uploads/E001_136.pdf\n",
+    "2025-01-11 12:19:57 | ERROR    | app:get_evidence_page_count:210 - File not found: C:\\Users\\Brad\\Desktop\\legal_dev\\uploads/E001_136.pdf\n",
+    "2025-01-11 12:20:40 | ERROR    | app:submit_bug:156 - Bug Report - Split PDF Issue: When I click \"Split PDF\" I see an error in the ui that says \"PDF not found\"\n",
+    "2025-01-11 12:34:59 | ERROR    | app:submit_bug:156 - Bug Report - PDF Split: When I click Split PDF There is an error message. Check logs for more details\n"
+  ]
+}

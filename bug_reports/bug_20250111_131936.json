@@ -1,0 +1,17 @@
+{
+  "title": "Create Character",
+  "details": "I was in the new character modal. I populated the information in the modal and tried to submit the form. When I clicked the confirmation button, there was a message in the ui that said \"danger\"",
+  "timestamp": "2025-01-11T13:19:36.046966",
+  "logs": [
+    "2025-01-11 12:15:13 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:15:40 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:15:55 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:16:05 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:19:47 | ERROR    | app:get_evidence_page_count:210 - File not found: C:\\Users\\Brad\\Desktop\\legal_dev\\uploads/E001_136.pdf\n",
+    "2025-01-11 12:19:57 | ERROR    | app:get_evidence_page_count:210 - File not found: C:\\Users\\Brad\\Desktop\\legal_dev\\uploads/E001_136.pdf\n",
+    "2025-01-11 12:20:40 | ERROR    | app:submit_bug:156 - Bug Report - Split PDF Issue: When I click \"Split PDF\" I see an error in the ui that says \"PDF not found\"\n",
+    "2025-01-11 12:34:59 | ERROR    | app:submit_bug:156 - Bug Report - PDF Split: When I click Split PDF There is an error message. Check logs for more details\n",
+    "2025-01-11 12:39:42 | ERROR    | app:submit_bug:156 - Bug Report - Still not splitting the pdf: review the log files.\n",
+    "2025-01-11 13:19:36 | ERROR    | app:submit_bug:162 - Bug Report - Create Character: I was in the new character modal. I populated the information in the modal and tried to submit the form. When I clicked the confirmation button, there was a message in the ui that said \"danger\"\n"
+  ]
+}

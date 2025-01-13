@@ -1,0 +1,17 @@
+{
+  "title": "PDF viewer",
+  "details": "I imported a new pdf. When I clicked the detail view, the preview window says: \nInternal Server Error\nThe server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.",
+  "timestamp": "2025-01-11T11:55:14.198596",
+  "logs": [
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201a       \u00e2\u201d\u201a      \u00e2\u201d\u201a       \u00e2\u201d\u201d {}\n",
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201a       \u00e2\u201d\u201a      \u00e2\u201d\u201d ()\n",
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201a       \u00e2\u201d\u201d 404\n",
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201d {400: <class 'werkzeug.exceptions.BadRequest'>, 401: <class 'werkzeug.exceptions.Unauthorized'>, 403: <class 'werkzeug.except...\n",
+    "          \u00e2\u201d\u201d <werkzeug.exceptions.Aborter object at 0x000002A876403AD0>\n",
+    "\n",
+    "werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\n",
+    "2025-01-11 11:55:14 | ERROR    | __main__:submit_bug:155 - Bug Report - PDF viewer: I imported a new pdf. When I clicked the detail view, the preview window says: \n",
+    "Internal Server Error\n",
+    "The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\n"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Split PDF",
+  "details": "When I enter the pdf detail view and click the \"Split PDF\" button, nothing happens. It should prompt me to define a page range for splitting",
+  "timestamp": "2025-01-11T12:14:14.839807",
+  "logs": [
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201a       \u00e2\u201d\u201a      \u00e2\u201d\u201a       \u00e2\u201d\u201d {}\n",
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201a       \u00e2\u201d\u201a      \u00e2\u201d\u201d ()\n",
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201a       \u00e2\u201d\u201d 404\n",
+    "          \u00e2\u201d\u201a    \u00e2\u201d\u201d {400: <class 'werkzeug.exceptions.BadRequest'>, 401: <class 'werkzeug.exceptions.Unauthorized'>, 403: <class 'werkzeug.except...\n",
+    "          \u00e2\u201d\u201d <werkzeug.exceptions.Aborter object at 0x00000266D28FDDF0>\n",
+    "\n",
+    "werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\n",
+    "2025-01-11 12:13:01 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:13:11 | ERROR    | utils.pdf_utils:get_pdf_page_count:15 - Error getting PDF page count: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Brad\\\\Desktop\\\\legal_dev\\\\uploads/E001_130.pdf'\n",
+    "2025-01-11 12:14:14 | ERROR    | app:submit_bug:156 - Bug Report - Split PDF: When I enter the pdf detail view and click the \"Split PDF\" button, nothing happens. It should prompt me to define a page range for splitting\n"
+  ]
+}
