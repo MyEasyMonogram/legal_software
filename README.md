@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Legal Evidence Manager
 
 A software system for organizing legal evidence with built-in feedback and logging capabilities.
@@ -36,3 +37,7 @@ A software system for organizing legal evidence with built-in feedback and loggi
 - `static/`: CSS, JavaScript, and other static files
 - `models/`: Database models
 - `utils/`: Utility functions including logging setup 
+=======
+# legal_software
+Testing for legal software
+>>>>>>> 9863e10b2457572693d22667304d5ccdaadf0bea
